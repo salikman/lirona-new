@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hello World!</title>
+
+<link rel="stylesheet" href="css/libs.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>    
+    <!-- Header -->
+    <header id="header" class="header fixed-nav">
+    <div class="header-wrap">
+        <div class="header-topnav">
+            <!-- <div class="container"> -->
+                <div class="topnav">
+                    <div class="logo">
+                        <img class="img-size" src="img/logo-new.png" alt="Логотип">
+                    </div>
+                    <div class="header-contacts">
+                        <div class="navbar">
+                            <a class="btn-collapse">
+                                <span></span>
+                                <div class="txt-menu">Menu</div>
+                            </a>
+                            <ul class="navbar-menu wow bounceInRight" data-delay="1s">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Компании</a></li>
+                                <li><a href="#">Реализация идеи</a></li>
+                                <li class="has-dropdown"><a >Продукция</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">ДВЕРИ</a></li>
+                                        <li><a href="#">БУАЗЕРИ</a></li>
+                                        <li><a href="#">ЛЕСТНИЦЫ</a></li>
+                                        <li><a href="#">КУХНИ - СТОЛОВЫЕ</a></li>
+                                        <li><a href="#">КАБИНЕТЫ</a></li>
+                                        <li><a href="#">СПАЛЬНИ</a></li>
+                                        <li><a href="#">ГАРДЕРОБНЫЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">ДЕТСКИЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">ВАННЫЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">БАРНЫЕ ГАРНИТУРЫ-ВИНОТЕКИ</a></li>
+                                        <li><a href="#">БИЛЬЯРДНЫЕ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Интерьеры</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-contacts__call">
+                            <div class="contact">
+                                <a href="#" onclick="contactsBtn()" class="contactbtn"><i class="fa fa-phone"></i></a>
+                                <div id="mycontact" class="contact-content">
+                                    <a href="tel:+380981130214"><img src="img/call.png" alt="Call">+38 (098) 113-02-14</a>
+                                    <a href="#"><img src="img/viber.png" alt="Viber">Написать в Viber</a>
+                                    <a href="#"><img src="img/telegram.png" alt="Telegram">Написать в Telegram</a>
+                                    <a href="#"><img src="img/whatsapp.png" alt="WhatsApp">Написать в WhatsApp</a>
+                                </div>
+                            </div>
+                            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a> -->
+                        </div>
+                        <div class="lang">
+                            <a href="#" onclick="myFunction()" class="langbtn">RU</a>
+                            <div id="mylang" class="lang-content">
+                              <a href="#">EN</a>
+                              <a href="#">UA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</header>
+
+    <main id="page-contacts">
+        <div class="page page-contacts">
+            <div class="page-header">
+    <div class="overlay"></div>
+    <div class="container">
+        <!-- <div class="bottom">
+            <h1 class="page-header__title">КОНТАКТЫ</h1>
+        </div> -->
+    </div>
+</div>
+            <div class="page-content">
+    <div class="container">
+        <h2 class="page__title offset special-text">
+            <span>Контакты</span>
+            <div class="effect"></div>
+        </h2>
+        <div class="page-content-wrap">
+            <div class="page-content-block">
+                <h4>Фирменный салон:</h4>
+                <ul>
+                    <li><div><img src="img/icon-phone--gold.png" alt=""></div><span>Тел. +38 (098) 113-02-14</span></li>
+                    <li><div><img src="img/icon-point--gold.png" alt=""></div><span>г. Киев, ТЦ «Домосфера»<br>Столичное шоссе 101, 3-й этаж</span></li>
+                    <li><div><img src="img/icon-email--gold.png" alt=""></div><span>sale@lirona.com.ua</span></li>
+                    <li><div><img src="img/icon-clock--gold.png" alt=""></div><span>Пн-Вс: 10:00 – 20:00</span></li>
+                </ul>
+            </div>
+            <div class="page-content-block">
+                <h4>Производство:</h4>
+                <ul>
+                    <li><div><img src="img/icon-phone--gold.png" alt=""></div><span>Тел. +38 (067) 549 06 81</span></li>
+                    <li><div><img src="img/icon-point--gold.png" alt=""></div><span>Киево-Святошинский р-н,<br>г. Вишневое, ул. Черновола, 51</span></li>
+                    <li><div><img src="img/icon-email--gold.png" alt=""></div><span>lironaov1992@gmail.com </span></li>
+                    <li><div><img src="img/icon-clock--gold.png" alt=""></div><span>Пн-Пт: 10:00 – 20:00<br>Сб-Вс: Выходной</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+
+        <section class="feedback">
+    <div class="feedback-wrap">
+        <div class="feedback-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40653.35678216128!2d30.490395952259423!3d50.444177715596986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1581084860956!5m2!1sru!2sua" width="100%" height="631" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="feedback-form">
+            <form class="form" action="">
+                <span>Напишите нам</span>
+                <div class="form-input">
+                    <div class="form-inner">
+                        <input type="text" placeholder="Имя *">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form-inner">
+                        <input type="email" placeholder="E-mail *">
+                        <input type="text" placeholder="Тема">
+                    </div>
+                </div>
+                <div class="form-textarea">
+                    <textarea cols="10" rows="10" placeholder="Сообщение ...."></textarea>
+                </div>
+                <button class="btn form__btn">
+                    <span class="bg"></span>
+                    <span class="text">Отправить</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-wrap">
+            <div class="footer__text">
+                <span>© LIRONA</span> - 
+                <span>Все права защищены 2017</span>
+                <span>
+                    <a href="https://www.facebook.com/profile.php?id=100025383129328" target="blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lironallc/" target="blank"><i class="fa fa-instagram"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- /.Footer -->
+    <!-- Modal -->
+    <div id="preloader">
+    <div class="loader">
+        <div class="logo">
+            <img class="img-size" src="img/logo-new.png" width="250" alt="Логотип">
+        </div>
+        <div class="ring"></div>
+    </div>
+</div>
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+    <!-- /.JS -->
+</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hello World!</title>
+
+<link rel="stylesheet" href="css/libs.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body class="is-home">    
+    <!-- Header -->
+    <header id="header" class="header fixed-nav">
+    <div class="header-wrap">
+        <div class="header-topnav">
+            <!-- <div class="container"> -->
+                <div class="topnav">
+                    <div class="logo">
+                        <img class="img-size" src="img/logo-new.png" alt="Логотип">
+                    </div>
+                    <div class="header-contacts">
+                        <div class="navbar">
+                            <a class="btn-collapse">
+                                <span></span>
+                                <div class="txt-menu">Menu</div>
+                            </a>
+                            <ul class="navbar-menu wow bounceInRight" data-delay="1s">
+                                <li><a href="#">Главная</a></li>
+                                <li><a href="#">Компании</a></li>
+                                <li><a href="#">Реализация идеи</a></li>
+                                <li class="has-dropdown"><a >Продукция</a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">ДВЕРИ</a></li>
+                                        <li><a href="#">БУАЗЕРИ</a></li>
+                                        <li><a href="#">ЛЕСТНИЦЫ</a></li>
+                                        <li><a href="#">КУХНИ - СТОЛОВЫЕ</a></li>
+                                        <li><a href="#">КАБИНЕТЫ</a></li>
+                                        <li><a href="#">СПАЛЬНИ</a></li>
+                                        <li><a href="#">ГАРДЕРОБНЫЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">ДЕТСКИЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">ВАННЫЕ КОМНАТЫ</a></li>
+                                        <li><a href="#">БАРНЫЕ ГАРНИТУРЫ-ВИНОТЕКИ</a></li>
+                                        <li><a href="#">БИЛЬЯРДНЫЕ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Интерьеры</a></li>
+                                <li><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                        <div class="header-contacts__call">
+                            <div class="contact">
+                                <a href="#" onclick="contactsBtn()" class="contactbtn"><i class="fa fa-phone"></i></a>
+                                <div id="mycontact" class="contact-content">
+                                    <a href="tel:+380981130214"><img src="img/call.png" alt="Call">+38 (098) 113-02-14</a>
+                                    <a href="#"><img src="img/viber.png" alt="Viber">Написать в Viber</a>
+                                    <a href="#"><img src="img/telegram.png" alt="Telegram">Написать в Telegram</a>
+                                    <a href="#"><img src="img/whatsapp.png" alt="WhatsApp">Написать в WhatsApp</a>
+                                </div>
+                            </div>
+                            <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a> -->
+                        </div>
+                        <div class="lang">
+                            <a href="#" onclick="myFunction()" class="langbtn">RU</a>
+                            <div id="mylang" class="lang-content">
+                              <a href="#">EN</a>
+                              <a href="#">UA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </div>
+    </div>
+</header>
+    <!-- /.Header -->
+    <!-- Main -->
+    <main id="main">
+        <section class="slider">
+    <div class="slider-logo">
+        <img src="img/slide-logo.png" alt="" srcset="">
+    </div>
+    <div class="slider-list">
+        <div class="slider__item img-hover-zoom">
+            <img src="img/slider/slide-1.png" alt="" srcset="">
+        </div>
+        <div class="slider__item img-hover-zoom">
+            <img src="img/slider/slide-2.png" alt="" srcset="">
+        </div>
+    </div>
+</section>
+        <section class="about">
+    <div class="container">
+        <h2 class="about__title offset">
+            <span>О нашей компании</span>
+            <div class="effect"></div>
+        </h2>
+        <h4 class="about__subtitle offset">Ремесло как искусство</h4>
+        <div class="about-wrap">
+            <div class="about-block block-left">
+                <p class="about__text text">Лирона - производственная компания,   работающая в сфере оформления интерьеров изделиями из ценных пород дерева.
+                </p>
+                <p class="about__text text">За двадцать восемь лет работы было создано и реализовано множество самых разных проектов для квартир, домов и общественных помещений. 
+                </p>
+                <br>
+                <br>
+                <a href="about/remeslo_kak_iskusstvo/" class="btn work__link">
+                	<span class="bg"></span>
+                	<span class="text">Подробнее</span>
+            	</a>
+            </div>
+            <div class="about-block block-right">
+                <img src="img/about.jpg" alt="О нашей компании">
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="production">
+    <div class="container">
+        <h2 class="production__title offset">
+            <span>Наша продукция</span>
+            <div class="effect"></div>
+        </h2>
+        <p class="production__subtitle text">Вся продукция на предприятии изготавливается по проектной документации, разработанной в индивидуальном порядке.</span>
+        <div class="production-list">
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-1.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Лестницы</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-2.jpg" alt="Лестницы">
+                    <div class="overlay"></div>
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Двери</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-3.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Кухни</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-4.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Спальни</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-5.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Кабинеты</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-6.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Столовые</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-7.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Гардеробные</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-8.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Детские</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-9.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Ванные</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-10.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Барные</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-11.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Бильярдные</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-12.jpg" alt="Лестницы">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Декор</span>
+                </div>
+            </a>
+            <a href="#" class="production__item">
+                <div class="production__img">
+                    <img src="img/production/production-12.jpg" alt="Гостинные">
+                </div>
+                <div class="production__content">
+                    <span class="production__item-title">Гостинные</span>
+                </div>
+            </a>
+
+            <!-- <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-2.jpg" alt="Двери"><span class="production__item-title">Двери</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-3.jpg" alt="Кухни"><span class="production__item-title">Кухни</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-4.jpg" alt="Спальни"><span class="production__item-title">Спальни</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-5.jpg" alt="Кабинеты"><span class="production__item-title">Кабинеты</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-6.jpg" alt="Столовые"><span class="production__item-title">Столовые</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-7.jpg" alt="Гардеробные"><span class="production__item-title">Гардеробные</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-8.jpg" alt="Детские"><span class="production__item-title">Детские</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-9.jpg" alt="Ванные"><span class="production__item-title">Ванные</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-10.jpg" alt="Барные"><span class="production__item-title">Барные</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-11.jpg" alt="Бильярдные"><span class="production__item-title">Бильярдные</span></a></div>
+            <div class="production__item"><a class="production__link" href="#"><img src="img/production/production-12.jpg" alt="Декор"><span class="production__item-title">Декор</span></a></div> -->
+        </div>
+    </div>
+</section>
+        <section class="work">
+    <div class="container">
+        <div class="work-wrap">
+            <h2 class="work__title">
+                <span>Порядок выполнения заказа</span>
+                <div class="effect"></div>
+            </h2>
+            <p class="work__text">В нашей компании налажен полный цикл производства 
+                мебели, лестниц, декоративных элементов интерьера из натурального 
+                дерева – от замеров, разработки проектной документации до 
+                изготовления и монтажа изделий на объекте, что позволяет нам 
+                гарантировать не только высокое качество, но и то, что в итоге 
+                вы получите именно то изделие, о котором мечтали.</p>
+            <a href="#" class="btn work__link">
+                <span class="bg"></span>
+                <span class="text">Подробнее</span>
+            </a>
+        </div>
+    </div>
+</section>
+        <section class="interiors">
+    <div class="container">
+        <h2 class="interiors__title offset">
+            <span>Интерьеры</span>
+            <div class="effect"></div>
+        </h2>
+        <p class="interiors__subtitle text">Мы делаем дизайн интерьеров под ключ. Дизайнер проработает для вас подробный эскиз, пока не получите желаемый результат.</p>
+        <div class="interiors-list">
+            <a href="#" class="interiors__item">
+                <div class="interiors__img">
+                    <img src="img/interiors/interior-1.jpg" alt="Интерьер 1">
+                </div>
+                <div class="interiors__content">
+                    <span class="interiors__item-title">Интерьер 1</span>
+                </div>
+            </a>
+            <a href="#" class="interiors__item">
+                <div class="interiors__img">
+                    <img src="img/interiors/interior-2.jpg" alt="Интерьер 2">
+                </div>
+                <div class="interiors__content">
+                    <span class="interiors__item-title">Интерьер 2</span>
+                </div>
+            </a>
+            <a href="#" class="interiors__item">
+                <div class="interiors__img">
+                    <img src="img/interiors/interior-3.jpg" alt="Интерьер 3">
+                </div>
+                <div class="interiors__content">
+                    <span class="interiors__item-title">Интерьер 3</span>
+                </div>
+            </a>
+            <a href="#" class="interiors__item">
+                <div class="interiors__img">
+                    <img src="img/interiors/interior-4.jpg" alt="Интерьер 4">
+                </div>
+                <div class="interiors__content">
+                    <span class="interiors__item-title">Интерьер 4</span>
+                </div>
+            </a>
+        </div>
+        <a href="obekty/" class="btn interiors__link" style="margin-top:20px;">
+            <span class="bg"></span>
+            <span class="text">Смотреть все</span>
+        </a>
+    </div>
+</section>
+        <section class="instagram">
+    <div class="container">
+        <h2 class="instagram__title offset">
+            <span>Instagram</span>
+            <div class="effect"></div>
+        </h2>
+        <p class="instagram__subtitle text">Мы хотели бы поделиться с вами нашей повседневной жизнью и мы хотим, чтобы вы чувствовали тепло нашей компании.</p>
+        <div class="instagram-list">
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-1.jpg" alt="instagram-1"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-2.jpg" alt="instagram-2"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-3.jpg" alt="instagram-3"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-4.jpg" alt="instagram-4"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-5.jpg" alt="instagram-5"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-6.jpg" alt="instagram-6"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-7.jpg" alt="instagram-7"></a>
+            <a href="#" class="instagram__item"><img src="img/instagram/instagram-8.jpg" alt="instagram-8"></a>
+        </div>
+        <div class="instagram__follow">
+            <span>Подпишитесь на нас:</span><a href="#">one.fabr</a>
+        </div>
+    </div>
+</section>
+        <section class="contants">
+    <div class="container">
+        <div class="contants-wrap">
+            <div class="contants__address">
+                <address><b>Фирменный салон:</b><br> 
+					<a href="tel:+38(067)5490682">+38 (067) 549 06 82</a><br>
+					г. Киев, ТЦ «Домосфера»<br>Столичное шоссе 101, 3-й этаж,<br> левое крыло</address>
+            </div>
+            <div class="contants__address">
+                <address><b>Производство:</b><br>
+					<a href="tel:+38(067)5490681">+38 (067) 549 06 81</a><br>
+					Киево-святошинский р-н,<br> г. Вишневое, ул. Черновола, 51</address>
+            </div>
+            <div>
+                <div class="contants__phone">
+                    <a href="tel:+38(067)5490682">+38 (067) 549 06 82</a>
+                </div>
+                
+                <div class="contants__email">
+                    <a href="mailto:office@lirona.com.ua">office@lirona.com.ua</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="feedback">
+    <div class="feedback-wrap">
+        <div class="feedback-maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d40653.35678216128!2d30.490395952259423!3d50.444177715596986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1581084860956!5m2!1sru!2sua" width="100%" height="631" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+        <div class="feedback-form">
+            <form class="form" action="">
+                <span>Напишите нам</span>
+                <div class="form-input">
+                    <div class="form-inner">
+                        <input type="text" placeholder="Имя *">
+                        <input type="tel" placeholder="Телефон">
+                    </div>
+                    <div class="form-inner">
+                        <input type="email" placeholder="E-mail *">
+                        <input type="text" placeholder="Тема">
+                    </div>
+                </div>
+                <div class="form-textarea">
+                    <textarea cols="10" rows="10" placeholder="Сообщение ...."></textarea>
+                </div>
+                <button class="btn form__btn">
+                    <span class="bg"></span>
+                    <span class="text">Отправить</span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+    </main>
+    <!-- /.Main -->
+    <!-- Footer -->
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-wrap">
+            <div class="footer__text">
+                <span>© LIRONA</span> - 
+                <span>Все права защищены 2017</span>
+                <span>
+                    <a href="https://www.facebook.com/profile.php?id=100025383129328" target="blank"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/lironallc/" target="blank"><i class="fa fa-instagram"></i></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- /.Footer -->
+    <!-- Modal -->
+    <div id="preloader">
+    <div class="loader">
+        <div class="logo">
+            <img class="img-size" src="img/logo-new.png" width="250" alt="Логотип">
+        </div>
+        <div class="ring"></div>
+    </div>
+</div>
+    <!-- /.Modal -->
+    <!-- JS -->
+    <script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+    <!-- /.JS -->
+</body>
+</html>
