@@ -17,26 +17,25 @@ function closeNav() {
 function myFunction() {
     document.getElementById("mylang").classList.toggle("show");
 }
-function contactsBtn() {
-    document.getElementById("mycontact").classList.toggle("show");
-}
-// pade-dor > lang
 
 
 
 (function($) {
-    window.onclick = function(event) {
-        if (!event.target.matches('.contactbtn')) {
-            var dropdowns = document.getElementsByClassName("contact-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
-            }
-        }
-    }
+    $('.contactbtn').click(function (){
+        $('#mycontact').toggleClass('show');
+    })
+    // window.onclick = function(event) {
+    //     if (!event.target.matches('.contactbtn')) {
+    //         var dropdowns = document.getElementsByClassName("contact-content");
+    //         var i;
+    //         for (i = 0; i < dropdowns.length; i++) {
+    //             var openDropdown = dropdowns[i];
+    //             if (openDropdown.classList.contains('show')) {
+    //                 openDropdown.classList.remove('show');
+    //             }
+    //         }
+    //     }
+    // }
     $('button.page-content__btn').on('click', function() {
         $('.page-content__text').toggleClass('open');
     });
